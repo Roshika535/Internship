@@ -19,39 +19,45 @@ h1{
     background-color: brown;
 }
 /* task 2*/
-.white{
-    background-color: white;
-    width: 200px;
-    margin: auto;
-    border: none;
-    margin-top: 80px; /*fieldsets bich ko margin milauna*/
-}
-h2{
-    color:rgb(34, 156, 204);
-}
-.blue{
-    background-color:rgb(34, 156, 204); 
-    width:500px;
+.blue {
+    background-color: rgb(34, 156, 204);
+    width: 500px;
     height: 500px;
     border: none;
-    margin: auto; /*box screen ko center ma jancha*/
+    margin: auto; /* center the blue box */
+    position: relative; /*adjusted relative to its normal position. */
 }
+
+.white {
+    background-color: white;
+    width: 300px;
+    border: none;
+    position: absolute; /* blue box ko bhitra rakhna */
+    top: 20%; 
+    left: 20%; 
+}
+
+h2 {
+    color: rgb(34, 156, 204);
+}
+
 .box {
-    width: 200px; 
-    height: 20px; 
-    background-color: rgb(216, 203, 203); 
+    width: 200px;
+    height: 20px;
+    background-color: rgb(216, 203, 203);
     color: grey;
     border: none;
-    border-radius: 3px; /*border curve garna*/
-    padding: 20px; /*box haru ko space*/
-    margin: 20px; /* username haru wala box ra baira blue box bich ko space*/
+    border-radius: 3px; /*box border curve garna*/
+    padding: 20px; /*username password jasto box haru bich ko spacing milauna*/
+    margin: 20px; /*username haru wala box ra baira ko blue box ko bich ma space milauna*/
 }
-.login{
-    width:200px;
-    height:20px;
-    background-color:rgb(34, 156, 204);
+
+.login {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(34, 156, 204);
     color: white;
-    text-align:center;
+    text-align: center;
     padding: 20px;
     margin: 20px;
 }
