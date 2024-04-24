@@ -1,7 +1,7 @@
-h1{
+/* h1{
     background-color: black;
     color:aqua
-}
+} */
 .red{
     background-color: red;
 }
@@ -22,7 +22,7 @@ h1{
 .blue {
     background-color: rgb(34, 156, 204);
     width: 500px;
-    height: 500px;
+    height: 600px;
     border: none;
     margin: auto; /* center the blue box */
     position: relative; /*adjusted relative to its normal position. */
@@ -52,12 +52,219 @@ h2 {
     margin: 20px; /*username haru wala box ra baira ko blue box ko bich ma space milauna*/
 }
 
-.login {
-    width: 200px;
-    height: 20px;
-    background-color: rgb(34, 156, 204);
-    color: white;
-    text-align: center;
+
+.login{
+    width: 245px;
+    height: 50px;
+    background-color:rgb(34, 156, 204);
+    color:white;
     padding: 20px;
     margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    border:none;
 }
+
+/* day 3 */
+/* .outbox{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+    margin-bottom: ;
+
+} */
+/* .out{
+    background-color: red;
+    margin-right: 100px;
+    margin-left: 100px;
+} */
+/* h1{
+    text-align: center;
+} */
+/* .out h1{
+    margin-left: 40%;
+    margin-top: 30px;
+    background-color: blue;
+    display: inline; 
+}
+.out p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    background-color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.out button{
+    background-color: burlywood;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    margin-left: 435px ;
+    margin-top: 50px;
+    padding: 20px;
+    cursor: pointer;
+ 
+} */
+
+/* task 3 */
+
+/* .out{
+    background-color: seagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mid{
+   background-color:lightgrey;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.in{
+    margin: 5px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.later{
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+h5{
+    text-align: center;
+    
+}
+.tat{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+ */
+
+ /* task4 */
+ /* purple */
+.whole{
+    display: flex;
+    margin-top: 100px;
+}
+.body{
+    background-color: rgb(212, 233, 241)
+}
+.purple{
+    background-color: rgb(89, 10, 163);
+    margin-left: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.chapters{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.con{
+    background-color: rgb(89, 10, 163);;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.purple h2{
+    color: white;
+}
+.chapters h2{
+    color: black;
+}
+
+/* orange box */
+.merged{
+    display: flex;
+    margin-top: 80px;
+}
+.orange{
+    background-color: rgb(216, 95, 24);
+    margin-left: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.chapter{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.button{
+    background-color:rgb(216, 95, 24);
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.orange h2{
+    color: white;
+  
+}
+.chapter h2{
+    color: black;
+}
+
