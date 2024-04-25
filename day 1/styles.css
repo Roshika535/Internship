@@ -111,7 +111,7 @@ h2 {
 } */
 
 /* task 3 */
-
+ 
 /* .out{
     background-color: seagreen;
     padding-left: 20px;
@@ -180,12 +180,12 @@ h5{
     margin-left: 10px;
     margin-right: 10px;
 
-}
- */
+} */
+
 
  /* task4 */
  /* purple */
-.whole{
+ .whole{
     display: flex;
     margin-top: 100px;
 }
@@ -268,3 +268,39 @@ h5{
     color: black;
 }
 
+/* day 4 */
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 0px;
+}
+.one{
+    
+     border: 3px solid blue;
+}
+.two{
+   
+    border: 3px solid blue;
+}
+.three{
+    
+    border: 3px solid blue;
+}
+h1{
+    background-color: blue;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 200px;
+    text-align: center;
+    color: white;
+    
+}
+h4{
+    text-align: center;
+}
+.two h1{
+    margin-left: 310px;
+    margin-right: 310px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+}
