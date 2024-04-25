@@ -304,3 +304,17 @@ h4{
     /* padding-left: 5px;
     padding-right: 5px; */
 }
+/* day4a */
+body{
+    background-color: aquamarine;
+}
+#navbar{
+    background-color: brown;
+}
+html{
+    scroll-behavior: smooth;
+}
+.fa-user{
+    background-color: bisque;
+    color: black;
+}
