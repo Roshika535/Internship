@@ -1,0 +1,33 @@
+*{
+    background-color: orchid;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.icon{
+    background-color: blue;
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+    border-radius: 4px;
+    position: fixed;
+    bottom:3%;
+    left: 90%;
+    border-radius: 4px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.fa-angle-up{
+    font-size: 40px;
+    background-color: blue;
+    color: azure;
+    display: block;
+
+}
+body{
+    position: relative;
+}
+

@@ -185,3 +185,9 @@ letter-spacing: 2px;
 html{
     scroll-behavior: smooth;
 }
+
+#navbar{
+    background-color: beige;
+    position: sticky;
+    top: 0%;
+}
