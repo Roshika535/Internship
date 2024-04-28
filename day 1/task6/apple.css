@@ -7,33 +7,38 @@ body{
 }
 .first{
     background-color: rgb(247, 247, 247);
+   opacity: 0.9;
 }
 .first ul{
     list-style-type: none;
     display: flex;
-    gap: 30px;
-    margin-left: 8%;
+    gap: 25px;
+    margin-left: 4%;
     margin-right: 13%;
     padding: 9px;
+}
+.first li{
     cursor: pointer;
 }
 
-/* #navbar{
-    background-color: beige;
+#navbar{
     position: sticky;
     top: 0%;
-} */
+
+}
 .event{
     background-color: rgb(243, 243, 243); 
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+    color:#1d1d1f
 }
 .event p{
     margin-top: 8px;
+    /* color: #1d1d1f; */
 }
 .learnm{
-    background-color: blue;
+    background-color: #2997ff;
     color: white;
     border: none;
     border-radius: 25px;
@@ -80,8 +85,8 @@ body{
 }
 .shopi{
     background-color: black;
-    color: blue;
-    border: 1px solid blue;
+    color: #2997ff;
+    border: 1px solid #2997ff;
     border-radius: 25px;
     padding-left: 18px;
     padding-right: 18px;
@@ -94,7 +99,7 @@ body{
     cursor: pointer;
 }
 .shopi:hover{
-    background-color: blue;
+    background-color: #2997ff;
     color: white;
 }
 
@@ -102,9 +107,125 @@ body{
     display: flex;
     margin-top: 15px;
     text-align: center;
+    gap: 10px;
+}
+.mone p{
+    font-size: 20px;
+}
+h2{
+   padding-top: 45px;
+   padding-bottom: 8px;
+   font-size: 30px;
 }
 .mac{
+    cursor: pointer;
+    margin-left: 10px;
     background-color:  rgb(243, 243, 243);
+    color: #1d1d1f;
+  
+}
+.watch{
+    cursor: pointer;
+    background-color: black;
+    color: white;  
+    padding-left:200px;
+    padding-right: 200px;
+    
+}
+.watch h5{
+    color: rgb(197, 31, 31);
+    padding-bottom: 8px;
+   
+}
+
+.mtwo{
+    cursor: pointer;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    gap: 10px;
+}
+.mtwo p{
+    font-size: 20px;
+}
+.ipad{
+    cursor: pointer;
+    background-color: rgb(243, 243, 243) ;
+    color: #1d1d1f;
+    margin-left: 10px;
+    padding-left: 118px;
+    padding-right: 118px;
+}
+.airpods{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-right: 12px;
+}
+.airpods img{
+    height: 60%;
+    width: 90%;
+}
+
+.mthree{
+    cursor: pointer;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+.mthree p{
+    font-size: 20px;
+}
+.card{
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    color: #1d1d1f;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.trade{
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+    color: #1d1d1f;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.learn{
+    background-color: #2997ff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.learn:hover{
+    background-color: rgb(31, 31, 218);  
+}
+.buy{
+    background-color: transparent;
+    color: #2997ff;
+    border: 1px solid #2997ff;
+    border-radius: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 12px;
+    font-size: 15px;
+}
+.buy:hover{
+    background-color: #2997ff;
+    color: white;
 }
 
 .footermain{
@@ -145,6 +266,10 @@ body{
 }
 .container li{
     padding-bottom: 8px;
+    cursor: pointer;
+}
+.container li:hover{
+    text-decoration-line: underline;
 }
 .abc{
     padding-bottom: 15px;
@@ -157,3 +282,38 @@ body{
     padding-bottom: 15px;
 
 }
+
+
+/* dropdown  */
+.dropdown {
+    display: block;
+    position: relative; /* dropdown box ko relative position*/
+    margin-left: 150px;
+  }
+
+  .dropdown-options {
+    display: none;
+    position: absolute; /* yo rakhena vane box move huncha*/
+    overflow: auto;
+    background-color:#fff;
+    border-radius:5px;
+  }
+
+  /* dropdowm ma hover garda dropdown option ko box nikalna */
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
+  /* dropdown option ko link ma style dina */
+  .dropdown-options a {
+    display: block; 
+    color: #000000;
+    text-decoration: none; /* link ma underline hatauna milcha*/
+    padding-right: 60px;
+    padding-left: 40px;
+    padding-top:20px;
+    padding-bottom: 40px; 
+  }
+  .dropdown-options:hover{
+    font-size: large;
+  }
