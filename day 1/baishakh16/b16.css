@@ -1,5 +1,8 @@
-body{
+/* body{
     position: relative;
+} */
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topbar{
@@ -19,10 +22,17 @@ gap: 620px;
     color: #1c90fc;
 }
 
-#navbar{
+
+.secondbar{
     position: sticky;
     top: 0%;
-    z-index: 1000px;
+    z-index: 1001;
+
+background: white;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 #navbar ul{
@@ -34,7 +44,6 @@ gap: 620px;
    
 }
 #navbar img{
-    margin-right: 60px;
     padding-right: 2px;
     padding-left: 2px;
 }
@@ -66,8 +75,35 @@ gap: 620px;
     background-color: rgb(12, 4, 15);
 }
 
+
+
+
+
+.swiper {
+    width: 1330px;
+    height: 570px;
+    left: 0%;
+    right: 0%;
+   
+    margin-top: 0%;
+    margin: 0%;
+   
+  }
+  .swiper img{
+    width: 100%;
+    height: 100%;
+  
+
+    
+  }
+.swiper-wrapper{
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
  /* This only changes this particular animation duration */
-.animate__animated.animate__backInUp {
+ .animate__animated.animate__backInUp {
     --animate-duration: 2s;
   }
   
@@ -87,19 +123,6 @@ gap: 620px;
   --animate-delay: 0.9s;
 }   
   
- 
-    
-
-
-.swiper {
-    height: 900px;
-    width: 1340px;
-   
-}
-.swiper img{
-    width: 1340px;
-   
-}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -108,17 +131,14 @@ gap: 620px;
     padding: 5px;
     border-radius: 30px;
     color: rgb(230, 228, 228) !important;
-
-    /* fill: black !important;
-    stroke: black !important; */
 }
 
 .text{
     margin-top: 30px;
     position: absolute;
-    z-index: 50px;
+    z-index: 50;
     color: black;
-    top: 80px;
+    top: 60px;
     left: 80px;
 }
 
@@ -160,26 +180,23 @@ gap: 620px;
 .learn:hover{
     background-color: #1c90fc;
 }
-.swiper-wrapper{
-    position: relative;
-   
 
-
-}
 
 .mergethree{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 8%;
     margin-right: 8%;
-    z-index: 1000;
+    /* z-index: 10; */
     gap: 20px;
     position: absolute;
+    /* margin-bottom: 50px; */
    
     
-  
-bottom:10%;
-    z-index: 1000;
+/* margin-bottom: 15%;   */
+
+top: 550px;
+z-index: 1000;
     /* bottom: 10px; */
     
     
@@ -194,6 +211,11 @@ bottom:10%;
    /* top: 0%;
    z-index: 1000px; */
 }
+.cases:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 45px 5px -29px rgb(187, 224, 255);
+}
+
 
 
 .doctors{
@@ -202,6 +224,12 @@ bottom:10%;
     border-radius: 4px;
     color: whitesmoke;
 }
+.doctors:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 45px 5px -29px rgb(187, 224, 255);
+}
+
+
 .hours{
     background-color: #1c90fc;
     padding: 30px;
@@ -209,3 +237,270 @@ bottom:10%;
     color: whitesmoke;
 
 }
+.hours:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 45px 5px -29px rgb(187, 224, 255);
+}
+
+
+
+/* help div */
+
+.help{
+    text-align: center;
+    color:  rgb(85, 82, 82);
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+/* ends */
+
+/* doticons */
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap: 20px;
+    position:relative;
+    z-index: 100;
+}
+.icons div{
+    margin: 55px;
+}
+.ambulance:hover, .pharmacy:hover, .treatment:hover{
+    i{
+        background-color: #1c90fc;
+        color: white;
+    }
+}
+.fa-ambulance,.fa-stethoscope{
+    background-color: whitesmoke;
+    color: #1c90fc;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 40px;
+}
+.fa-prescription-bottle-medical {
+    background-color: whitesmoke;
+    color: #1c90fc;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding:30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 40px; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.icons p{
+    font-size: 16px;
+    color: rgb(85, 82, 82);
+    
+}
+
+.dot{
+    /* margin-left: 270px;
+    margin-right: 400px; */
+    position: absolute;
+    top: 190%;
+    font-size: 30px;
+}
+.dot ul{
+    display: flex;
+    color: #1c90fc;
+   text-align: center;
+    gap: 110%;
+ 
+}
+.dot li{
+ list-style-type: none; 
+
+}
+.dot .lone{
+    margin-left: 350px;
+}
+.dot .ltwo{
+    margin-left:-200px ;
+}
+
+/* ends */
+
+/* background image wala */
+.deed{
+    margin-bottom:8%;
+    background-color: #1c90fc;
+}
+.background-cover{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    z-index: 1000;
+    
+  
+  
+
+    /* position: absolute; */
+}
+.background-cover-1, .background-cover-2, .background-cover-3, .background-cover-4{
+ display: flex; 
+
+
+
+ /* z-index: 100; */
+
+}
+.background-cover-1:hover, .background-cover-2:hover, .background-cover-3:hover, .background-cover-4:hover{
+    i{
+        background-color: whitesmoke;
+        color: #1c90fc;
+        
+    }
+}
+
+
+.background-img{
+    background: url(images/blockqoute-bg.jpg);
+    padding-top: 139px;
+
+    padding-bottom: 139px;
+    height: 100%;
+    width: 100%;
+ 
+    /* filter: blur(10%);
+     */
+    /* position: relative; */
+    
+
+
+   /* background-position: center;
+   background-size: cover; */
+}
+
+
+.bac1 i{
+   
+    border-radius: 50%;
+    padding: 24px;
+    font-size: 16px; 
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    z-index: 1000;
+    color: white;
+
+   
+}
+.bac2 p{
+    color: whitesmoke;
+}
+.background-cover-1 p{
+    color: whitesmoke;
+    
+}
+
+
+
+
+
+/* vid container started */
+.vid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 94px;
+    color: rgb(85, 82, 82);
+}
+
+.txt .uls{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.txt ul{
+    list-style-type: none;
+}
+.txt hr{
+    width:55px;
+    height: 2px;
+    border: none;
+    background-color: #1c90fc;
+  
+    font-style: bold;
+    margin-left: 0px;
+    
+}
+.txt p{
+    color: rgb(85, 82, 82);
+}
+ .uls i{
+    background-color:#1c90fc;
+    color: whitesmoke;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 8px; 
+ }
+
+.vid-container img{
+    height: 86%;
+    width: 86%;
+    margin-top: 30px;
+    position: relative;
+}
+
+  
+.faplay .fa-play {
+ 
+    padding: 28px;
+    background-color: #1c90fc;
+    font-size: 30px;
+    color: whitesmoke;
+    border-radius: 50%; 
+    
+  }
+ .faplay{
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 12%;
+    cursor: pointer;
+ }
+ 
+
+ /* ends here */
+
+.emergency{
+    color: whitesmoke;
+    text-align: center;
+}
+.background-image1{
+    background: url(images/call-bg.jpg);
+   
+   
+}
+
+
+/* next div */
+
+
+/* footer */
+.footer{
+    background-color: #2c5f8f;
+    color: whitesmoke;
+}
+.footer ul{
+    list-style-type: none;
+}
+
+
+.footer hr{
+    width:55px;
+    height: 2px;
+    border: none;
+    /* background-color: #1c90fc; */
+    font-style: bold;
+    margin-left: 0px;
+    
+}
+
+  
