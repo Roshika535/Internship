@@ -1,0 +1,29 @@
+.threebox{
+    /* width: 1000px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.onebox{
+    background-color: red;
+}
+.twobox{
+    background-color: brown;
+}
+.lastbox{
+    background-color: blue;
+}
+
+@media screen and (max-width:768px){
+    .threebox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:480px) {
+    .threebox{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
