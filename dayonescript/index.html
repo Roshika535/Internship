@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="wholebody">
+    <style>
+        .darkmode{
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+
+    <h1>Roshika</h1>
+    <button onclick="fun()">Clickme</button>
+
+
+<script>
+    function fun(){
+        // var element= document.getElementById("h1").innerHTML="Sharma";
+        // var element= document.getElementById("h1").style.color="red";  
+        var element= document.getElementById('wholebody');
+        element.classList.toggle("darkmode");
+    }
+
+</script>
+
+</body>
+</html>

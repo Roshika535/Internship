@@ -285,12 +285,21 @@ h2{
 
 
 /* dropdown  */
-.dropdown {
+.dropdown1{
+    display: none;
+}
+
+.dropdown1:hover {
     display: block;
     position: relative; /* dropdown box ko relative position*/
     margin-left: 150px;
   }
-
+.dropdown2{
+    display: none;
+}
+.dropdown2:hover{
+    display: block;
+}
   .dropdown-options {
     display: none;
     position: absolute; /* yo rakhena vane box move huncha*/

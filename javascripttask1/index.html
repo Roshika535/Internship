@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="body">
+    <div class="background_box">
+        <label class="toggle_box">
+            <input type="checkbox" name="" id="checkbox">
+            <div class="circle"></div>
+        </label>
+    </div>
+
+    <script>
+        let background_box = document.querySelector(".background_box");
+        let toggle_box=document.querySelector(".toggle_box");
+        let circle = document.querySelector(".circle");
+        let checkbox = document.getElementById("checkbox");
+        toggle_box.onclick = function(){
+            if(checkbox.checked){
+                circle.style.transform="translateX(100px)";
+                circle.style.backgroundColor="black"
+                toggle_box.style.backgroundColor="white";
+                background_box.style.backgroundColor="black";
+            }else{
+                circle.style.transform="translateX(0px)";
+                circle.style.backgroundColor="white"
+                toggle_box.style.backgroundColor="black";
+                background_box.style.backgroundColor="white";
+
+            }
+
+        }
+    </script>
+
+</body> 
+</html>
