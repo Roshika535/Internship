@@ -12,40 +12,39 @@
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
-    <h1>Cart</h1>
+    <h1>User</h1>
 
 <div class="container row" id="container">
 
 </div>
 <script>
-    fetch('https://fakestoreapi.com/products/category/jewelery')
-.then ((res)=>{
-    return res.json()
-})
-.then ((data)=>{
-    console.log(data);
-    const newdata=data;
-    console.log(newdata);
-    let rows="";
-    newdata.forEach((el)=>{
-        rows += `<div class="card">
-        <img style="width: 200px; height: 200px;" src="${el.image}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">${el.title}</h5>
-          <p class="card-text">Price: ${el.price}</p>
-          <p class="card-text">Category: ${el.category}</p>
-          <p class="card-text">Description: ${el.description}</p>
-          <p class="card-text">Rating: ${el.rating.rate}</p>
-          <p class="card-text">Count: ${el.rating.count}</p>
-        </div>
-      </div>`
-    });
-    document.getElementById("container").innerHTML=rows;
 
-})
+
+fetch(`https://api.github.com/users/Roshika535`)
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+
+        
+        const card = `
+            <div class="card">
+                <img style="width: 200px; height: 200px;" src="${data.avatar_url}" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">${data.login}</h5>
+                <p class="card-text">ID: ${data.id}</p>
+                <p class="card-text">Name: ${data.name}</p>
+                <p class="card-text">Email: ${data.email}</p> 
+                <p class="card-text">Created at: ${Date(data.created_at).toLocaleString()}</p> 
+                <p class="card-text">Updated at: ${Date(data.updated_at).toLocaleString()}</p>
+                </div>
+            </div>`;
+
+        document.getElementById("container").innerHTML = card;
+    })
+
 
 
 

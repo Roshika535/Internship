@@ -1,0 +1,105 @@
+{
+    "clothingItems": [
+      {
+        "itemId": "001",
+        "name": "Classic T-Shirt",
+        "category": "Tops",
+        "size": ["S", "M", "L", "XL"],
+        "color": ["Red", "Blue", "Green", "Black", "White"],
+        "price": 19.99,
+        "quantityInStock": 100,
+        "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHNoaXJ0fGVufDB8fDB8fHww"
+      },
+      {
+        "itemId": "002",
+        "name": "Denim Jeans",
+        "category": "Bottoms",
+        "size": ["28", "30", "32", "34", "36"],
+        "color": ["Blue", "Black"],
+        "price": 49.99,
+        "quantityInStock": 50,
+        "imageUrl": "https://images.unsplash.com/photo-1560243563-062bfc001d68?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "003",
+        "name": "Summer Dress",
+        "category": "Dresses",
+        "size": ["S", "M", "L"],
+        "color": ["Yellow", "Red", "Blue"],
+        "price": 29.99,
+        "quantityInStock": 75,
+        "imageUrl": "https://images.unsplash.com/photo-1520026582657-4daf5bb60adb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "004",
+        "name": "Wool Sweater",
+        "category": "Outerwear",
+        "size": ["M", "L", "XL"],
+        "color": ["Gray", "Navy", "Black"],
+        "price": 39.99,
+        "quantityInStock": 40,
+        "imageUrl": "https://images.unsplash.com/photo-1604573824419-289a9a10672c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "005",
+        "name": "Leather Jacket",
+        "category": "Outerwear",
+        "size": ["S", "M", "L", "XL"],
+        "color": ["Black", "Brown"],
+        "price": 89.99,
+        "quantityInStock": 25,
+        "imageUrl": "https://images.unsplash.com/photo-1594803617043-2a5a0829fcd9?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "006",
+        "name": "Running Shoes",
+        "category": "Footwear",
+        "size": ["8", "9", "10", "11", "12"],
+        "color": ["Black", "White", "Blue"],
+        "price": 59.99,
+        "quantityInStock": 60,
+        "imageUrl": "https://images.unsplash.com/photo-1562183241-b937e95585b6?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "007",
+        "name": "Baseball Cap",
+        "category": "Accessories",
+        "size": ["One Size"],
+        "color": ["Red", "Blue", "Black", "White"],
+        "price": 14.99,
+        "quantityInStock": 150,
+        "imageUrl": "https://images.unsplash.com/photo-1592367630397-65872fe016e9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "008",
+        "name": "Silk Scarf",
+        "category": "Accessories",
+        "size": ["One Size"],
+        "color": ["Red", "Blue", "Green"],
+        "price": 24.99,
+        "quantityInStock": 80,
+        "imageUrl": "https://images.unsplash.com/photo-1566534335938-05f1f2949435?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "009",
+        "name": "Cargo Pants",
+        "category": "Bottoms",
+        "size": ["S", "M", "L", "XL"],
+        "color": ["Khaki", "Black", "Olive"],
+        "price": 34.99,
+        "quantityInStock": 45,
+        "imageUrl": "https://images.unsplash.com/photo-1600803177171-b9fbcc3018f5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "itemId": "010",
+        "name": "Formal Blazer",
+        "category": "Outerwear",
+        "size": ["S", "M", "L", "XL"],
+        "color": ["Black", "Maroon", "Navy"],
+        "price": 99.99,
+        "quantityInStock": 30,
+        "imageUrl": "https://images.unsplash.com/photo-1578896046966-21532b292c33?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  }
+  
